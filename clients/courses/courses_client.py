@@ -10,10 +10,10 @@ class GetCoursesQueryDict(TypedDict):
 
 class CreateCourseRequestDict(TypedDict):
     title: str
-    maxScore: int
-    minScore: int
+    maxScore: int | None
+    minScore: int | None
     description: str
-    estimatedTime: str
+    estimatedTime: str | None
     previewFileId: str
     createdByUserId: str
 
