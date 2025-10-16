@@ -6,6 +6,9 @@ from clients.private_http_builder import get_private_http_client, Authentication
 
 
 class File(TypedDict):
+    """
+    Описание структуры файла.
+    """
     id: str
     filename: str
     directory: str
@@ -22,6 +25,9 @@ class CreateFileRequestDict(TypedDict):
 
 
 class CreateFileResponseDict(TypedDict):
+    """
+    Описание структуры ответа создания файла.
+    """
     file: File
 
 

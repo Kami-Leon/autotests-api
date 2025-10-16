@@ -8,6 +8,9 @@ from clients.private_http_builder import AuthenticationUserDict, get_private_htt
 
 
 class Course(TypedDict):
+    """
+    Описание структуры курса.
+    """
     id: str
     title: str
     maxScore: int
@@ -19,10 +22,16 @@ class Course(TypedDict):
 
 
 class GetCoursesQueryDict(TypedDict):
+    """
+    Описание структуры запроса на получение списка курсов.
+    """
     userId: str
 
 
 class CreateCourseRequestDict(TypedDict):
+    """
+    Описание структуры запроса на создание курса.
+    """
     title: str
     maxScore: int | None
     minScore: int | None
@@ -33,10 +42,16 @@ class CreateCourseRequestDict(TypedDict):
 
 
 class CreateCourseResponseDict(TypedDict):
+    """
+    Описание структуры ответа создания курса.
+    """
     course: Course
 
 
 class UpdateCourseRequestDict(TypedDict):
+    """
+    Описание структуры запроса на обновление курса.
+    """
     title: str | None
     maxScore: int | None
     minScore: int | None
