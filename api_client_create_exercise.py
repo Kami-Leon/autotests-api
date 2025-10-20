@@ -1,5 +1,7 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import get_exercise_client, CreateExercisesRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_schema import CreateCourseRequestSchema
+from clients.exercises.exercises_client import get_exercise_client
+from clients.exercises.exercises_schema import CreateExercisesRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -33,27 +35,27 @@ create_file_request = CreateFileRequestSchema(
 create_file_response = files_client.create_file(create_file_request)
 print("Create file data: ", create_file_response)
 
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title="Python",
-    maxScore=100,
-    minScore=10,
+    max_score=100,
+    min_score=10,
     description="Python Api Course",
-    estimatedTime="2 weeks",
-    previewFileId=create_file_response.file.id,
-    createdByUserId=create_user_response.user.id
+    estimated_time="2 weeks",
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
 )
 create_course_response = courses_client.create_course(create_course_request)
 print("Create course data: ", create_course_response)
 
 exercise_client = get_exercise_client(authentication_user)
-create_exercise_request = CreateExercisesRequestDict(
+create_exercise_request = CreateExercisesRequestSchema(
     title="HTTPX",
-    courseId=create_course_response['course']['id'],
-    maxScore=20,
-    minScore=5,
-    orderIndex=10,
+    course_id=create_course_response.course.id,
+    max_score=20,
+    min_score=5,
+    order_index=10,
     description="The practice of using API clients",
-    estimatedTime="5 days"
+    estimated_time="5 days"
 )
 exercise_response = exercise_client.create_exercise(create_exercise_request)
 print("Create exercise data: ", exercise_response)
