@@ -123,8 +123,6 @@ class ExercisesClient(ApiClient):
 
     def create_exercise(self, request: CreateExercisesRequestDict) -> CreateExercisesResponseDict:
         response = self.create_exercise_api(request)
-        if response is None:
-            raise ValueError("create_exercise_api() вернул None")
         return response.json()
 
     def update_exercise(self, exercise_id: str, request: UpdateExercisesRequestDict) \
