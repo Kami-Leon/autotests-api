@@ -2,7 +2,7 @@ import httpx
 import uuid
 from pydantic import BaseModel, Field, EmailStr, HttpUrl
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class UserSchema(BaseModel):
@@ -26,7 +26,7 @@ class CreateUserResponseSchema(BaseModel):
 
 
 CreateUserRequest = CreateUserRequestSchema(
-    email=get_random_email(),
+    email=fake.email(),
     password="password",
     lastName="Bond",
     firstName="Zara",
