@@ -14,5 +14,5 @@ def validate_json_schema(instance: Any, schema: dict) -> None:
     validate(
         schema=schema,
         instance=instance,
-        format_cheker=Draft202012Validator.FORMAT_CHEKER
+        format_checker=Draft202012Validator.FORMAT_CHECKER
     )
