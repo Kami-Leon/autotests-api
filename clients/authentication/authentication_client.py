@@ -1,5 +1,4 @@
 from httpx import Response
-from typing import TypedDict
 
 from clients.api_client import ApiClient
 from clients.public_http_builder import get_public_http_client
