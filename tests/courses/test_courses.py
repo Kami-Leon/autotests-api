@@ -1,4 +1,6 @@
 import pytest
+import allure
+from allure_commons.types import Severity
 from http import HTTPStatus
 
 from clients.courses.courses_client import CoursesClient
@@ -7,6 +9,10 @@ from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCour
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
+from tools.assertions.allure.epics import AllureEpic
+from tools.assertions.allure.features import AllureFeature
+from tools.assertions.allure.stories import AllureStory
+from tools.assertions.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.courses import assert_update_course_response, assert_get_courses_response, \
     assert_create_course_response
@@ -15,8 +21,15 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.courses
 @pytest.mark.regression
+@allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
+@allure.epic(AllureEpic.LMS)  # Добавили epic
+@allure.feature(AllureFeature.COURSES)
 class TestCourses:
 
+    @allure.tag(AllureTag.CREATE_ENTITY)
+    @allure.story(AllureStory.GET_ENTITIES)
+    @allure.title("Create course")
+    @allure.severity(Severity.BLOCKER)
     def test_create_course(
             self,
             courses_client: CoursesClient,
@@ -35,6 +48,10 @@ class TestCourses:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.GET_ENTITIES)
+    @allure.story(AllureStory.GET_ENTITY)
+    @allure.title("Get courses")
+    @allure.severity(Severity.BLOCKER)
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -50,6 +67,10 @@ class TestCourses:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.tag(AllureTag.UPDATE_ENTITY)
+    @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.title("Update course")
+    @allure.severity(Severity.CRITICAL)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         request = UpdateCourseRequestSchema()
         response = courses_client.update_course_api(function_course.response.course.id, request)
