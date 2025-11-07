@@ -23,7 +23,7 @@ class ExercisesClient(ApiClient):
         """
         return self.get("api/v1/exercises", params=query.model_dump(by_alias=True))
 
-    @allure.step("Get exercise by id {course_id}")
+    @allure.step("Get exercise by id {exercise_id}")
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод получения упражнения.
