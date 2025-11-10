@@ -6,10 +6,10 @@ from http import HTTPStatus
 from clients.authentication.authentication_client import AuthenticationClient
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
 from fixtures.users import UserFixture
-from tools.assertions.allure.epics import AllureEpic
-from tools.assertions.allure.features import AllureFeature
-from tools.assertions.allure.stories import AllureStory
-from tools.assertions.allure.tags import AllureTag
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.schema import validate_json_schema

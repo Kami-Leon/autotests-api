@@ -9,10 +9,10 @@ from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCour
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
-from tools.assertions.allure.epics import AllureEpic
-from tools.assertions.allure.features import AllureFeature
-from tools.assertions.allure.stories import AllureStory
-from tools.assertions.allure.tags import AllureTag
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.courses import assert_update_course_response, assert_get_courses_response, \
     assert_create_course_response

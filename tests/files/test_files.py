@@ -8,10 +8,10 @@ from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileResponseSchema
 from config import settings
 from fixtures.files import FileFixture
-from tools.assertions.allure.epics import AllureEpic
-from tools.assertions.allure.features import AllureFeature
-from tools.assertions.allure.stories import AllureStory
-from tools.assertions.allure.tags import AllureTag
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.files import assert_create_file_with_empty_filename_response, \
     assert_create_file_with_empty_directory_response
