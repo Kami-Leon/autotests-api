@@ -1,5 +1,4 @@
-from email.policy import default
-
+import pydantic
 from pydantic import BaseModel, HttpUrl, Field
 from tools.fakers import fake
 
@@ -20,7 +19,7 @@ class CreateFileRequestSchema(BaseModel):
     """
     filename: str = Field(default_factory=lambda: f"{fake.uuid4()}.png")
     directory: str = Field(default="tests")
-    upload_file: str
+    upload_file: pydantic.FilePath
 
 
 class CreateFileResponseSchema(BaseModel):
