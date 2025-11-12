@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjUzLjIwMTAyMCIsInVzZXJfaWQiOiJjMjQwNTg0NC1kNjBmLTRhYWMtYmI1NC04ZWZlYTZkYTMxNDUifQ.AeC5OmJofSafpSAxeNxcoeDjGAKiieGf7mo_tb8jFjU' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foot adult live health guess.","maxScore":83,"minScore":5,"description":"Both light appear total. Decision growth community recent arm success. Not window director watch candidate last mission.","estimatedTime":"10 weeks","previewFileId":"09601db2-4f23-43b9-88c8-7f335cfca7bb","createdByUserId":"c2405844-d60f-4aac-bb54-8efea6da3145"}'

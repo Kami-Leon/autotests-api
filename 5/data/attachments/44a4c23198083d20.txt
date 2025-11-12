@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjU1LjYzODM2MCIsInVzZXJfaWQiOiJjNGZkOTY2Yi02YjM0LTQxNGYtOGQwMS0wNjVmNzVjOWYwYzIifQ.I1Mph9BPAGGpsZ10qyOB7zzc2YHIxKaxAF3D9fKZj9g' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Only fish wide.","maxScore":73,"minScore":17,"description":"Beyond join chance I speak card. Option herself method over. Other manage water others.","estimatedTime":"10 weeks","previewFileId":"778d6b79-86d3-44aa-a500-bed9216f1590","createdByUserId":"c4fd966b-6b34-414f-8d01-065f75c9f0c2"}'

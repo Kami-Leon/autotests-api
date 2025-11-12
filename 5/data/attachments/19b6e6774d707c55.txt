@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjU0LjQxNjM1OCIsInVzZXJfaWQiOiIwNzUyYTFkMy04ZTQ3LTQxMDMtYWJiYS0zNTgxODI0ZTk3NmMifQ.adC3qMIOdKruE0r0TjlWrpc6vbovYKZZw0Wxu4zPsBI' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book ask spend feel sense thought practice.","maxScore":56,"minScore":1,"description":"Represent develop wonder. Hotel clear stage manage although according.\nGive recent move both along where. Now measure not visit lay wide. Traditional good significant green.","estimatedTime":"3 weeks","previewFileId":"6e1283bd-89e5-4b13-989c-9a5062f56200","createdByUserId":"0752a1d3-8e47-4103-abba-3581824e976c"}'

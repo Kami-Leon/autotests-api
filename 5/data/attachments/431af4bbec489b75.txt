@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjUyLjI5Mjk3OCIsInVzZXJfaWQiOiJjMzg4MjkwMy1iMjEzLTQzZjEtYTY1Mi1iZGM3YzcwNjI4NTUifQ.6ch4P5nAjQ8eSquOFEzVZN7ZTvhKOcnj9jC0GJbIPek' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice common citizen treat.","maxScore":67,"minScore":22,"description":"Happy happen bar stock artist middle southern weight. Guy better idea young turn improve anyone. Spring local maybe care.","estimatedTime":"1 weeks","previewFileId":"d45ffce4-2db7-4d50-ac59-11252f7e0b5e","createdByUserId":"c3882903-b213-43f1-a652-bdc7c7062855"}'

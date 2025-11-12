@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjU1LjYzODM2MCIsInVzZXJfaWQiOiJjNGZkOTY2Yi02YjM0LTQxNGYtOGQwMS0wNjVmNzVjOWYwYzIifQ.I1Mph9BPAGGpsZ10qyOB7zzc2YHIxKaxAF3D9fKZj9g' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All pay try purpose something.","courseId":"a3854c47-df82-45a2-9f55-ef80e6404dc2","maxScore":94,"minScore":12,"orderIndex":56,"description":"Indicate key foot. Morning need again form could management important. Walk newspaper before state. Ago full far raise middle call single.\nGroup everyone run yard result development TV.","estimatedTime":"9 weeks"}'

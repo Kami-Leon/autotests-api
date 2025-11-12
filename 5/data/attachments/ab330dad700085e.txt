@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/b9a52047-6e1b-41a2-9fed-3cc5800055e6
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/b9a52047-6e1b-41a2-9fed-3cc5800055e6
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:25 Check update course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Approach society unit real light seek say."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "99"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "3"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "As least born. May real prove me leg month. Plant treatment girl be once effect.
+None ground interview few add turn whose. Consumer fine lawyer each group response."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "7 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

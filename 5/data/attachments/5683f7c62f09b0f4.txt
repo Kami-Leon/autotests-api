@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b9a52047-6e1b-41a2-9fed-3cc5800055e6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjUzLjIwMTAyMCIsInVzZXJfaWQiOiJjMjQwNTg0NC1kNjBmLTRhYWMtYmI1NC04ZWZlYTZkYTMxNDUifQ.AeC5OmJofSafpSAxeNxcoeDjGAKiieGf7mo_tb8jFjU' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Approach society unit real light seek say.","maxScore":99,"minScore":3,"description":"As least born. May real prove me leg month. Plant treatment girl be once effect.\nNone ground interview few add turn whose. Consumer fine lawyer each group response.","estimatedTime":"7 weeks"}'

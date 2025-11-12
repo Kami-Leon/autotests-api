@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:65 Check create course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Voice common citizen treat."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "67"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "22"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Happy happen bar stock artist middle southern weight. Guy better idea young turn improve anyone. Spring local maybe care."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "1 weeks"
+INFO     BASE_ASSERTION:base.py:38 Check "preview_file_id" equals to "d45ffce4-2db7-4d50-ac59-11252f7e0b5e"
+INFO     BASE_ASSERTION:base.py:38 Check "created_by_user_id" equals to "c3882903-b213-43f1-a652-bdc7c7062855"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjU0LjQxNjM1OCIsInVzZXJfaWQiOiIwNzUyYTFkMy04ZTQ3LTQxMDMtYWJiYS0zNTgxODI0ZTk3NmMifQ.adC3qMIOdKruE0r0TjlWrpc6vbovYKZZw0Wxu4zPsBI' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"May scene middle.","courseId":"5f1cdd92-eac6-4dec-8393-a0a5702fad8a","maxScore":76,"minScore":25,"orderIndex":31,"description":"Democrat when PM vote traditional political. Tend month control operation truth might popular.\nSeven TV type. Knowledge staff right hard capital candidate once. Size general team.","estimatedTime":"2 weeks"}'

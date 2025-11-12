@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjUxLjcwNzkxMSIsInVzZXJfaWQiOiJkNDQwMGI2Ny1hYmUxLTRhNTMtYmYyNS1hOTZlNmUwMjExYTAifQ.9GBtBY4pHydFMjwjMe5NNIceUeCw_D5LzY2Oy8QX1ig' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office bill some manager again.","maxScore":86,"minScore":2,"description":"Continue affect only go. Democrat man natural pay boy. Protect one stay young. Figure back against entire put suggest space.","estimatedTime":"5 weeks","previewFileId":"3304bdc1-cb7f-4dd0-9eae-5bd5627f5718","createdByUserId":"d4400b67-abe1-4a53-bf25-a96e6e0211a0"}'

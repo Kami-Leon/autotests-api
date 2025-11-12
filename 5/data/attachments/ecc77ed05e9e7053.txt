@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=304a65ea-a0e4-4d0c-aff7-f7cf238aa500
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=304a65ea-a0e4-4d0c-aff7-f7cf238aa500
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:64 Check get exercises response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "aee7ca00-e39a-455a-a49f-245cdf791675"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Finish notice out drug us lot threat."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "304a65ea-a0e4-4d0c-aff7-f7cf238aa500"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "56"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "6"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "32"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Child physical partner color for southern report send. Whole old until scientist dark commercial. Hope pattern draw two safe first mother life."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "4 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

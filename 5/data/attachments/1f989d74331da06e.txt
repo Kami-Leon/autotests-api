@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjI4OjU0LjY4ODgxOCIsInVzZXJfaWQiOiI4YjdhMzI2OC02ODYxLTRkNmMtOWVjMy1hNjE2NmJkNDg3MmEifQ.lSNEhJ0MQb-t5f8mxHj7DEAsJycOQW-TGQo55UUcgSg' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find wife mention least three item offer.","maxScore":67,"minScore":19,"description":"Road successful road church. Soldier effect or what. Fall sister tonight never information.\nWith point small health ground stay grow smile.","estimatedTime":"1 weeks","previewFileId":"a48b9050-c581-419d-ab3c-59fb75f83f2f","createdByUserId":"8b7a3268-6861-4d6c-9ec3-a6166bd4872a"}'
