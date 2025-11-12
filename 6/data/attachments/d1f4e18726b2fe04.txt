@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjMxOjI3LjY0NjIyOSIsInVzZXJfaWQiOiIwZWNkYTYyYi1mMGY4LTQ1ZDQtODg4MS05NWYzNTI4ODc0ZjgifQ.cnsGSz6Ks4yTf167JbeHdcFPTgBtROCawqCROtxR_HU' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly quality actually likely system fall.","maxScore":89,"minScore":23,"description":"Bar study science but everything hot size. Cause system difficult reason television dark woman. Animal forget measure assume authority dinner direction resource. Message war price military than.","estimatedTime":"3 weeks","previewFileId":"5a27e4c7-9ec5-4b34-8f97-4eea83cc0128","createdByUserId":"0ecda62b-f0f8-45d4-8881-95f3528874f8"}'

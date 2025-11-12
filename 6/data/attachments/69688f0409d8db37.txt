@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/ebafc11d-61fc-4492-a035-9691b8e8e29c
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/ebafc11d-61fc-4492-a035-9691b8e8e29c
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:47 Check get exercise response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "ebafc11d-61fc-4492-a035-9691b8e8e29c"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Artist action base."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "07ef249b-b7dc-4318-a031-a017781510ea"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "62"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "4"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "72"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Discover father green ahead job. Young message likely end. Nearly say employee act run government. Respond receive much."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "9 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

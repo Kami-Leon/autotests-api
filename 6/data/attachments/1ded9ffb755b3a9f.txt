@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/2995c354-4c7b-45df-a66a-68c208c482bd
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/2995c354-4c7b-45df-a66a-68c208c482bd
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:25 Check update course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "If during suggest feeling."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "83"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "29"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "However onto glass foreign determine. Program fight option war help.
+Democrat act describe marriage century. Room those now between mission nor."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "10 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

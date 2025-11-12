@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjMxOjI4LjU3ODk0MiIsInVzZXJfaWQiOiI1MDRjMmIzMS1jNzIzLTRhZWItYTllYi1mNDE2YzUyNjQ3OGYifQ.hgyrL4M8GsflRj3pFADj3S3dz4yLccxnpyPagPelYSY' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His issue add draw.","maxScore":51,"minScore":23,"description":"Popular receive big field civil throw account. Happy none interest.\nMethod guess air approach do born. Prepare public soldier season pay. Position doctor black lawyer whole everybody.","estimatedTime":"2 weeks","previewFileId":"331e0164-75d8-4ab9-8206-34f8e5c338b3","createdByUserId":"504c2b31-c723-4aeb-a9eb-f416c526478f"}'

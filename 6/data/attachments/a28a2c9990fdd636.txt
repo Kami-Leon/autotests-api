@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjMxOjI1LjI1MDk3OSIsInVzZXJfaWQiOiI5MTVmOGQzOC0zODVlLTQ3MDAtYjg2Zi04MTFmYzE1YzMyOTcifQ.tHUmikOtEBV7ZQI2FZ9dA8OTkxv5y42p37tbU9SHyNA' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"While phone six painting power movie plan.","maxScore":51,"minScore":16,"description":"Style really life month idea off down. Key consider value population piece such care back.\nTough boy expect coach. Available condition main bed more study. Rest within who most seat.","estimatedTime":"5 weeks","previewFileId":"bf819dc6-1804-455b-aa66-b6e674f5ce66","createdByUserId":"915f8d38-385e-4700-b86f-811fc15c3297"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2995c354-4c7b-45df-a66a-68c208c482bd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDIxOjMxOjI2LjE1ODAxMiIsInVzZXJfaWQiOiI1ZDRiMjFjMS0yYWM4LTRiODYtODlmOS04ODk0YzBhM2M4ZDQifQ.5HnKDEJFhhjQqw57xb0V87RZTjK5d-X_lp2turUGKOY' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If during suggest feeling.","maxScore":83,"minScore":29,"description":"However onto glass foreign determine. Program fight option war help.\nDemocrat act describe marriage century. Room those now between mission nor.","estimatedTime":"10 weeks"}'
