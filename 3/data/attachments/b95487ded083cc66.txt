@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU2LjU3Njc5MiIsInVzZXJfaWQiOiIyYzM2NzBlNi1mZjUxLTQ0M2MtYmY3NC1kNDljYWRlZGYxNjAifQ.bnMiBXWJD3jsINv43h3Gdjqx6EXchT-DJvyt3DcZvAw' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet option news center race before.","courseId":"b8c8663b-df5f-4d80-9898-3078acdadb4c","maxScore":55,"minScore":6,"orderIndex":80,"description":"Network sea type war stop occur. Himself establish over church control eye summer. Should field our whose what from.","estimatedTime":"9 weeks"}'

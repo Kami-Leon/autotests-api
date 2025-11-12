@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjUzLjg5Mzg2NCIsInVzZXJfaWQiOiJjMWVlODVhYi0yY2FmLTRiYTMtOTMxYi02NzVkOWY4MWFjODEifQ.LqYkfGgBDN8RRdQ-uK9J0t8FUh3cDfZKLG0sGuAUbzs' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clear treat happy cultural together amount.","maxScore":73,"minScore":17,"description":"North draw cut job wide nature. Miss usually ten walk. Tv character age at always sound a.\nLike tax result impact. Teacher alone analysis design away modern art. Radio where focus then sea.","estimatedTime":"1 weeks","previewFileId":"1067dc72-92a7-40b7-a1bd-b9c041c69544","createdByUserId":"c1ee85ab-2caf-4ba3-931b-675d9f81ac81"}'

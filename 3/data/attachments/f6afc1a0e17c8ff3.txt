@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU2LjU3Njc5MiIsInVzZXJfaWQiOiIyYzM2NzBlNi1mZjUxLTQ0M2MtYmY3NC1kNDljYWRlZGYxNjAifQ.bnMiBXWJD3jsINv43h3Gdjqx6EXchT-DJvyt3DcZvAw' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Production role billion street.","maxScore":82,"minScore":13,"description":"Far experience west. Side wall mouth sound same. Growth night Democrat matter although born.\nEasy decade continue. Key candidate tough theory page. Door interview reason explain.","estimatedTime":"4 weeks","previewFileId":"088fddd8-1dba-4b2b-8997-89e2a3e2b5d2","createdByUserId":"2c3670e6-ff51-443c-bf74-d49cadedf160"}'

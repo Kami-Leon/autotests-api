@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU1LjY0NTY0MSIsInVzZXJfaWQiOiJiZjQ1YjQyNi0zYWJiLTRkZTQtYjc2OS03YTUwYmUyNjZhMGMifQ.pIjq4NYASBD3HA7RE7trLblyPjNZELWiJVgLu-xs6w8' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Could idea new.","maxScore":67,"minScore":24,"description":"Second partner region good thought thing down. Fight sign require whose guy school thank item. Need professional exactly will once production change.","estimatedTime":"6 weeks","previewFileId":"6e4edb3a-bc59-4de9-b9cd-33e6db60cfca","createdByUserId":"bf45b426-3abb-4de4-b769-7a50be266a0c"}'

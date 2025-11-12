@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=71c2b9c7-365a-4bf9-bb06-2ce3469f3972
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=71c2b9c7-365a-4bf9-bb06-2ce3469f3972
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:64 Check get exercises response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "23679930-cb44-43ed-9389-0666bbf34892"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Source change large."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "71c2b9c7-365a-4bf9-bb06-2ce3469f3972"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "77"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "8"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "57"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Money range phone name. Continue color relationship actually list future age people.
+First act group happen travel yes tough. Daughter same open dog work yard. Fight yard now practice PM finally."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "2 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

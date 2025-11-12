@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU0LjQ3NTc3MCIsInVzZXJfaWQiOiI3YWYwNmFkNi1iNTk4LTQ5OTItYjgxZS1lNTgwYmVkZDE3MDYifQ.k7UN-FcoE6pYyw_EweQ4aciT-OLGKMP5GjJ696sddgk' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer against his board imagine.","maxScore":100,"minScore":24,"description":"Little condition tax mean. Begin agree box song base.\nPretty point reduce. Risk modern our between these. Institution ball stand research economy campaign.","estimatedTime":"8 weeks","previewFileId":"0f8f9418-4d67-44d0-9c5f-6e5d6bdb1ee9","createdByUserId":"7af06ad6-b598-4992-b81e-e580bedd1706"}'

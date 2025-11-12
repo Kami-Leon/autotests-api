@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU1LjM3MjA2MCIsInVzZXJfaWQiOiJjYzIzOTI1YS1hNWJmLTQ2ZGYtYTY2ZC1jZGNmMTA4NTA4ZjcifQ.ynH2n41f-MbhX6hMX4ELqOGqF9iHLASAdk_6y8z_8WE' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Really me between white.","maxScore":75,"minScore":14,"description":"Worry religious different. Watch gun feel process positive teach alone surface.\nAnimal reveal drive college anyone debate how option. Year despite fight official try role. Argue travel worker effort.","estimatedTime":"7 weeks","previewFileId":"5812ff45-0e36-40d7-8753-baf2df123d70","createdByUserId":"cc23925a-a5bf-46df-a66d-cdcf108508f7"}'

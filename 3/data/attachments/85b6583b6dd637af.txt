@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU4LjA1NjU2NCIsInVzZXJfaWQiOiIxM2M3MjkyOC1kN2VjLTQ0Y2EtOTI1OC0zMzVmYjRhODgyODYifQ.6AfhhpjJcNdIzPMrHnmX17sHTy-PIKKkMToCuxFTzMM' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Number say here future follow.","maxScore":70,"minScore":2,"description":"Truth north simple power rich single somebody. Accept seven agree open practice child sound.","estimatedTime":"10 weeks","previewFileId":"766d7ec7-1c3d-4bd6-ada1-c230a178c3cf","createdByUserId":"13c72928-d7ec-44ca-9258-335fb4a88286"}'

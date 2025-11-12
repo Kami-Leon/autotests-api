@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjA1OjU3Ljc4MzE1NSIsInVzZXJfaWQiOiJiNmVhZjVmMS0wYmMwLTQxN2UtOGI3Yy0xYjlkYmZiZjE4NGEifQ.YZW5t8rry9I3V0APHQX1FY-mo-dctXUKROM57k0PWKQ' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Run enough arrive factor former vote.","maxScore":72,"minScore":23,"description":"Certain test type rest radio. Make reduce three energy side. Own sing arm international.\nLeast need entire quickly what science book. Machine name give fly see green.","estimatedTime":"5 weeks","previewFileId":"8a312d5a-58c7-4322-a8ca-f4775fab372a","createdByUserId":"b6eaf5f1-0bc0-417e-8b7c-1b9dbfbf184a"}'
