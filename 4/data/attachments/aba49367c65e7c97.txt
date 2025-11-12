@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjQwOjEyLjQ5NDA4OCIsInVzZXJfaWQiOiI0ZTEyODdmZS00YzIwLTRjMzUtOGYwZi01MGUzM2JmY2EzODkifQ.aN_q-zr3nTt8MsjnF0zNBaFW0pQn43EMM2eY3Vf9vqU' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Company team easy such young.","maxScore":67,"minScore":7,"description":"Recent history nature the. Draw project rock every help right.\nBuild feel certain amount fact. Each if similar close environmental sport there. Group part career because.","estimatedTime":"7 weeks","previewFileId":"4017ad11-0a64-4dd8-bee2-19b3c21681d2","createdByUserId":"4e1287fe-4c20-4c35-8f0f-50e33bfca389"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjQwOjA5LjIyMzIxNiIsInVzZXJfaWQiOiJkOGI0NTFmNi03Y2RhLTQwODctOWQ4MC0zMTFiNjM2ZjlkM2QifQ.wvv8ioWWrBvZQggF5GfK69Ch1-gu_DUQ_20mrPJ87TA' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pass fish talk.","maxScore":98,"minScore":15,"description":"Range perform name seat fire already decide. Allow summer return reflect near hard everybody.","estimatedTime":"3 weeks","previewFileId":"10d96887-a1e0-41a1-8c05-feef79ccce68","createdByUserId":"d8b451f6-7cda-4087-9d80-311b636f9d3d"}'

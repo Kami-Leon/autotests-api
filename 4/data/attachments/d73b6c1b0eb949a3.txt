@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjQwOjEyLjQ5NDA4OCIsInVzZXJfaWQiOiI0ZTEyODdmZS00YzIwLTRjMzUtOGYwZi01MGUzM2JmY2EzODkifQ.aN_q-zr3nTt8MsjnF0zNBaFW0pQn43EMM2eY3Vf9vqU' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth describe yet keep marriage interesting.","courseId":"2e8340b8-9200-4665-afc4-33f95168eeee","maxScore":74,"minScore":11,"orderIndex":43,"description":"Ever into wonder beat win. Drug various we then.\nBody music cold share left. Each everything stay produce bed whom mother. Whole page agent situation pretty action few. Oil both or.","estimatedTime":"1 weeks"}'

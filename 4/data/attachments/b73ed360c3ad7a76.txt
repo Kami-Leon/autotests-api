@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjQwOjA4LjYzMTI0OSIsInVzZXJfaWQiOiJkNzQ2M2VmNC05YzdhLTRlZGUtOGRiNS00MWRhMTNhMzMwZTIifQ.6b6cdIzGQuTlNodYBVjh9A0OPec4ma4v1Hjjmu5obA8' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enter billion information.","maxScore":83,"minScore":4,"description":"Politics care common point strategy article. Floor customer crime on positive.\nStandard president section learn seem bag. Mean history hand significant.","estimatedTime":"2 weeks","previewFileId":"fa6f87f7-71c4-40ad-bd82-e16907594a9b","createdByUserId":"d7463ef4-9c7a-4ede-8db5-41da13a330e2"}'

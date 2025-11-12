@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/d079bca8-c0f4-45c9-a0c0-dbb3d11e71f6
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/d079bca8-c0f4-45c9-a0c0-dbb3d11e71f6
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:47 Check get exercise response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "d079bca8-c0f4-45c9-a0c0-dbb3d11e71f6"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Use society record."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "b94a354f-635d-476d-8cab-77bea774d720"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "90"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "22"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "40"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Simply son play goal example change modern. Have official chance administration. Recent bring within they ago play Democrat.
+Ground be sort class. Meeting sense event Republican many enter."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "7 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

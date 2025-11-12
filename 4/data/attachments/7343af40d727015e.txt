@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjQwOjEwLjM4MjgzMCIsInVzZXJfaWQiOiI2MzNlMjg4MC1jZjFkLTQ1YWYtOTU3Ni00NjZkMzE0ODIyYzgifQ.uuct4m8ro8ry9BVPPMgBOuCbkeh7e2PHPFf-7AJqb4o' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen you something various.","courseId":"a25cdfdb-a348-440a-a364-e16386331d1f","maxScore":83,"minScore":25,"orderIndex":45,"description":"Appear data military. Worry get few maintain property. System card structure.","estimatedTime":"2 weeks"}'

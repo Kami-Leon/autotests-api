@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7cb6a646-9399-4849-b693-657946264b39' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEyVDE1OjQwOjA5LjgwMjM4OSIsInVzZXJfaWQiOiI0MDA5OGNmMC00NTk0LTQ1NzgtYjVjOC1jMDYwZDQ4MzQwNzkifQ.pI0Zwm0k8k9ulvOgpEyZ9wWF8zUIzf06s5Nj0Lig0Uc' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next head rock today study.","maxScore":63,"minScore":19,"description":"Detail nearly property agree right which realize. Tonight quality show significant find accept exist.\nQuestion itself address region you kitchen reality.","estimatedTime":"1 weeks"}'
