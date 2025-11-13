@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/168ceb9e-cdd2-448c-bc7f-130a0bfa57e4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA1LjY3MDAzOCIsInVzZXJfaWQiOiIzYTIzNmY1OS03NDJjLTRjNjAtYWE4MS0zOTE4M2Y0NTE1NGIifQ.c8x6walFrdQz5SZmNpHuNYlMHd5c0B9ajC3bAdVlhgA' \
+  -H 'content-length: 201' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break culture federal risk show until population.","maxScore":53,"minScore":18,"description":"Decide three beat practice cultural play. Consumer good quite human.","estimatedTime":"10 weeks"}'

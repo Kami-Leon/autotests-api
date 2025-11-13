@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA3LjQxODQzMyIsInVzZXJfaWQiOiJiYzFhOWYyOS1kY2E2LTQ0MDYtYWNlMC02ODdjMzBkY2RkZTEifQ.qngCI_CyY-Ao_jWVbN6_KZbnzqOniKHS-ThGcGX8E_Y' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat church issue use American unit sometimes.","courseId":"31171564-dfc0-41ac-973d-185d5332d7c1","maxScore":96,"minScore":26,"orderIndex":35,"description":"Above wind feeling about whatever. Heavy movement week myself system.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA4LjMyNjIzNCIsInVzZXJfaWQiOiJlMjA0NjQ0MC04MWMyLTRiOGMtYmRmYS00MmE3YjJiM2Q5ZGIifQ.zP2pXDB75ymY3GA75PXPCUt2ScjHyll6grg8jiAwPEY' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Purpose miss turn behind respond structure sometimes.","maxScore":64,"minScore":13,"description":"Part loss hospital. Town his board determine service modern clearly.\nBe suddenly various cut office. Yeah prevent technology look best next.","estimatedTime":"3 weeks","previewFileId":"5a63ba1b-2663-4486-8fa6-7835602cd7a8","createdByUserId":"e2046440-81c2-4b8c-bdfa-42a7b2b3d9db"}'

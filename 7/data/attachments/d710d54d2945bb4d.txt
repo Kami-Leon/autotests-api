@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA2LjI1OTQ2MCIsInVzZXJfaWQiOiI4N2U4YTFjNi04NGFkLTQ4ZTgtOGQwNS1lMDYzYjdkZmViNjcifQ.J2z-6DRs2lBhSY6FZuU_8nsGJRbdoeVV9uprpM6y1r0' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Few stand alone owner early order.","courseId":"42385f58-fb07-47f3-a2bc-74c8e20a3ea4","maxScore":61,"minScore":26,"orderIndex":65,"description":"Feeling artist son traditional he feel west tend. Serve really likely decision marriage nor let. Memory eight movement rate its strong five pretty.","estimatedTime":"2 weeks"}'

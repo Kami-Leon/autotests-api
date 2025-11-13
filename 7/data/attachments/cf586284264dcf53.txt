@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:65 Check create course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Interest cup side race."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "70"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "22"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Child many matter development. Professional avoid pretty receive hot. Performance economic measure and plant fund third.
+After best require people dog. Situation do until finally leave bed available."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "1 weeks"
+INFO     BASE_ASSERTION:base.py:38 Check "preview_file_id" equals to "67857c2f-2b29-427e-8a95-393ca3af9780"
+INFO     BASE_ASSERTION:base.py:38 Check "created_by_user_id" equals to "8a9a0d18-34e5-4820-b3d6-f8d24e175dd3"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c6def3d8-9867-4119-99ed-2f8715ab2e77' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA2Ljg0MDE1MyIsInVzZXJfaWQiOiI2OGY5ZTNiYy0yNTIxLTQ3MzgtYjBkMC04MWQyYmE5MGEyMzcifQ.O5I8pzmoPUd2un95FDFZ3aH3r-4SpkycSKbJVRu2hjM' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since maybe as may rest young hospital left.","maxScore":88,"minScore":15,"orderIndex":98,"description":"Strategy walk realize here. Should indeed civil back before require language.\nThere focus student tree. Century push quickly list court. Behavior analysis soldier itself better president.","estimatedTime":"1 weeks"}'

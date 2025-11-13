@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/abd34d2c-e1a0-44d4-9119-966e412c3e3c
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/abd34d2c-e1a0-44d4-9119-966e412c3e3c
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:47 Check get exercise response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "abd34d2c-e1a0-44d4-9119-966e412c3e3c"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Eat church issue use American unit sometimes."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "31171564-dfc0-41ac-973d-185d5332d7c1"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "96"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "26"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "35"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Above wind feeling about whatever. Heavy movement week myself system."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "1 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

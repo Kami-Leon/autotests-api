@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA0LjQ5NzUzNCIsInVzZXJfaWQiOiI4MTFmYmUwMy05ZTRjLTQ5ZWUtYTE4My05NDFhMzhlYzQ2ZDMifQ.59Wx7iYckEHEQe-LrvRhimxVB7-6UAeMFFzqI7ByV08' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Old teacher share each.","maxScore":80,"minScore":10,"description":"Edge bank eat around relationship involve. Include cup church share chance into individual.","estimatedTime":"6 weeks","previewFileId":"b0e48c0e-7e10-40f4-ae1c-0c89c43b0197","createdByUserId":"811fbe03-9e4c-49ee-a183-941a38ec46d3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA3LjQxODQzMyIsInVzZXJfaWQiOiJiYzFhOWYyOS1kY2E2LTQ0MDYtYWNlMC02ODdjMzBkY2RkZTEifQ.qngCI_CyY-Ao_jWVbN6_KZbnzqOniKHS-ThGcGX8E_Y' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Buy spring base thank face house child.","maxScore":57,"minScore":5,"description":"Case fine mouth vote able. Training matter and win. Go necessary fund beautiful none.\nAnother street research I. Ability front change south interesting occur.","estimatedTime":"2 weeks","previewFileId":"7c295f64-77d6-4ff8-943c-31c330b44129","createdByUserId":"bc1a9f29-dca6-4406-ace0-687c30dcdde1"}'

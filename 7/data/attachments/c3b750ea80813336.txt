@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjA4LjU5ODY2NyIsInVzZXJfaWQiOiJlOWM1YTc2MS0yMzQ3LTRlZmItYmQ3Yi04MmMzMmVkZTA4NjMifQ.2mrP3mIzFU_wOIeBaZX8_47qQaprAPevi-6LSsFWM7o' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Design ten study north.","maxScore":81,"minScore":9,"description":"Year occur direction six animal military. But human stock tough director under. Paper herself bit receive analysis. Election about establish few.\nMost expert new company. Imagine make red look.","estimatedTime":"8 weeks","previewFileId":"c29b8386-8111-4601-a91d-290e4bc5cbdf","createdByUserId":"e9c5a761-2347-4efb-bd7b-82c32ede0863"}'
