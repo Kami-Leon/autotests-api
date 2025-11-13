@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:82 Check create exercise response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Image authority enough start."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "c6ada0f7-aa54-4fca-92b7-2c8e3012f4ca"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "85"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "26"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "77"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Buy record do. Course production mean between indeed card. Party less could yet sell school.
+Write investment leader wonder age reflect beyond. Very wife sure special claim total cost."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "6 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

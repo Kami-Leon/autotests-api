@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ4Ljg4MDQyNyIsInVzZXJfaWQiOiI0MGZjYTE0Ny0zM2M3LTQ5NTItOThiNy03NjRiZjBiOGJhMTAifQ.47mZ1KDMD5ScZWydYQKETrMLYENgIpTbxiWy2fu9Szk' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film air medical safe green.","maxScore":88,"minScore":30,"description":"Discussion language page yes like evening employee. Prove share member mean better especially. Together act stop until.","estimatedTime":"10 weeks","previewFileId":"b5a91f82-59f5-4946-b4d6-c7bfb77e4246","createdByUserId":"40fca147-33c7-4952-98b7-764bf0b8ba10"}'

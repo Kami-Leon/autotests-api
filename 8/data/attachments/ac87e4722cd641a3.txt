@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ5LjgxMzcxNyIsInVzZXJfaWQiOiIzMzI2NTY4Ny05ZGMzLTQzNDUtYjcwMC03NzVlM2Q0ZDQ0NmYifQ.HTAe2UB8C5yjx70PvKa0qC9USDY2trVNvByhOGMw5ek' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Congress meet role talk.","maxScore":96,"minScore":24,"description":"Rise southern side. Rather place seek book concern. Since its play level issue including. Performance actually individual exactly group door.","estimatedTime":"2 weeks","previewFileId":"4d9725c5-e606-4c52-b5ed-da18043a69f1","createdByUserId":"33265687-9dc3-4345-b700-775e3d4d446f"}'

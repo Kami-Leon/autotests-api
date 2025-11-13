@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ5LjgxMzcxNyIsInVzZXJfaWQiOiIzMzI2NTY4Ny05ZGMzLTQzNDUtYjcwMC03NzVlM2Q0ZDQ0NmYifQ.HTAe2UB8C5yjx70PvKa0qC9USDY2trVNvByhOGMw5ek' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie large rich.","courseId":"dcaad01c-c26a-495b-8b7d-79c32872ef14","maxScore":67,"minScore":29,"orderIndex":96,"description":"Pick matter American these. Office product scientist face few particularly magazine. Into alone assume herself.","estimatedTime":"10 weeks"}'

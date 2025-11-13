@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ3LjcxMjQ1NSIsInVzZXJfaWQiOiJlMDVlMzYyYy0zZDYzLTQ0MTgtYWZhNi1kYjQyOGM3NGQxMGEifQ.4KkcKiCR8Fe556aj7PxbpANViSc4YSPIufQ_dGTgBc8' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop action front rest.","maxScore":72,"minScore":12,"description":"Bad hundred maybe court result. Amount human behind over right notice special. Positive sometimes something conference. Resource side perform somebody finish whom method.","estimatedTime":"5 weeks","previewFileId":"26778ac1-833d-42ee-82c4-803ec93428a9","createdByUserId":"e05e362c-3d63-4418-afa6-db428c74d10a"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=9ac55c31-e676-4576-ad6e-58b517a61e21
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=9ac55c31-e676-4576-ad6e-58b517a61e21
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:64 Check get exercises response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "7fba33b9-1537-4e2d-a378-6715b70a242c"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Same few out instead share fight leader water."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "9ac55c31-e676-4576-ad6e-58b517a61e21"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "83"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "11"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "66"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Particular color leave message south hold. Season leader well old close identify school my.
+Ground run director change budget then many. Own owner mission. Then require possible."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "1 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

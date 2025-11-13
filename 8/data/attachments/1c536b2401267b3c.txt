@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjUxLjMwMTQ3NiIsInVzZXJfaWQiOiIwOTA5Mzg1YS1kMDZmLTQ5Y2ItYTFkNS01MmVlYzZlYThjNmYifQ.ZNq1IkuKpXQx4ENgU-0mDATENQ3VBp8yNA5cWf9stAk' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same few out instead share fight leader water.","courseId":"9ac55c31-e676-4576-ad6e-58b517a61e21","maxScore":83,"minScore":11,"orderIndex":66,"description":"Particular color leave message south hold. Season leader well old close identify school my.\nGround run director change budget then many. Own owner mission. Then require possible.","estimatedTime":"1 weeks"}'

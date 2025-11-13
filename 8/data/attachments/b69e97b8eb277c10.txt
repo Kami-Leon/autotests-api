@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjUwLjA4NzE5OCIsInVzZXJfaWQiOiIzZmVkOWJiMS0wOGY5LTQ0ZTktYWI3MC0yNDg2MmJjZTliODAifQ.k__iNqtWvzxYtF6hIgf2-NdWpQq_piq2Xlw4_E4jJGw' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Edge central kid structure choose race type.","courseId":"e6cae123-28b3-439c-968d-951952601c7d","maxScore":57,"minScore":20,"orderIndex":93,"description":"Conference various live key through article. Significant be center new discuss.\nSpeech either special newspaper degree sit chair dog. On different claim accept house coach. Week audience on.","estimatedTime":"2 weeks"}'

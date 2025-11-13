@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjUxLjAyOTMxMyIsInVzZXJfaWQiOiI1Njk4ZWIxMi00ZTAwLTRjOGUtYjAwNi0zNWIzZTE0Yjk0ZDEifQ.YoOTRIYGzmrlq3RUMQfMLyLHtygp_wtq6k-26PC86l8' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Baby travel back environmental different food area.","maxScore":75,"minScore":25,"description":"Because that film population condition. Half section growth. Point all camera fine bad despite.\nAlthough early analysis religious treatment. Write matter own various stay each.","estimatedTime":"8 weeks","previewFileId":"c5f29615-0c6e-4e5d-8c83-e776ab0407d6","createdByUserId":"5698eb12-4e00-4c8e-b006-35b3e14b94d1"}'

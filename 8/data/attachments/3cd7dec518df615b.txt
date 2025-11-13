@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ4LjYwODA5MSIsInVzZXJfaWQiOiI3YjM3MGJmMS1hZjM5LTQzNmItODAzMi0wNzVlMWI0MTM5YjAifQ.UhB56bGSO6gKbr0aC0WiF1PKzIEALeSrKKPX8X-D0vg' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"By data western agreement third sometimes professor.","maxScore":95,"minScore":10,"description":"Movie should note nation understand. White tell between. Approach watch change black little none.","estimatedTime":"9 weeks","previewFileId":"29bf18fa-eff9-4be2-a554-e0d1a722e33e","createdByUserId":"7b370bf1-af39-436b-8032-075e1b4139b0"}'

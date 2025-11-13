@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ3LjEyOTI3NSIsInVzZXJfaWQiOiJiNGZlNjZlZS03YmM5LTRjMGUtYjQxMi01ODg3OGQ3Y2MzNTUifQ.FHkMwzDy7CPOG5MGm2si-RGWy7IE3gBl0rvj2E8K79g' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major be minute organization.","maxScore":93,"minScore":21,"description":"Gun institution already building the. Improve day sit account great hand.\nSuffer answer bed name. Person film impact federal issue old exactly. Hard these push.","estimatedTime":"3 weeks","previewFileId":"6f89c52e-071d-494c-b843-a2899ef2b915","createdByUserId":"b4fe66ee-7bc9-4c0e-b412-58878d7cc355"}'

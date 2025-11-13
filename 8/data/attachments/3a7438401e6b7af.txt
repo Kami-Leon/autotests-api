@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTEzVDEwOjU4OjQ4Ljg4MDQyNyIsInVzZXJfaWQiOiI0MGZjYTE0Ny0zM2M3LTQ5NTItOThiNy03NjRiZjBiOGJhMTAifQ.47mZ1KDMD5ScZWydYQKETrMLYENgIpTbxiWy2fu9Szk' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Image authority enough start.","courseId":"c6ada0f7-aa54-4fca-92b7-2c8e3012f4ca","maxScore":85,"minScore":26,"orderIndex":77,"description":"Buy record do. Course production mean between indeed card. Party less could yet sell school.\nWrite investment leader wonder age reflect beyond. Very wife sure special claim total cost.","estimatedTime":"6 weeks"}'
