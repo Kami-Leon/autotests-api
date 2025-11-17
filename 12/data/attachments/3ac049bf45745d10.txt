@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4204b647-6d3f-48ca-a1ca-ea1b46e01f71' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjA4LjUzMDY3MyIsInVzZXJfaWQiOiJmYmNhNjA5NS00NTViLTRjZWQtOGExNy0wOGRlNGRjMjE3ZWYifQ.aauukPv-NyEjq19_3mtnuEIZi5PXnKlbPdtiefrAURE' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden near bed Mr safe ground anything.","maxScore":50,"minScore":5,"description":"Always under crime. Next contain customer true recent but.\nPast city international claim make. Home east approach remain.\nTown marriage police seat sound recent. Available property stay full sing.","estimatedTime":"1 weeks"}'

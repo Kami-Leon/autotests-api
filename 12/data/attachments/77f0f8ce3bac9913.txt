@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjEwLjAzMDA2NSIsInVzZXJfaWQiOiIyN2U4NzM3NS0yZDM3LTRmNmMtYTJjMS04OTZhZjI3OGU2MDUifQ.dUgKt46Lh9qxZqgqGsb4yvq-n-vUHdCShvoNyDciOrM' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Black receive detail feeling.","maxScore":75,"minScore":17,"description":"Hundred various manager bill plant. Market enjoy evening history.\nOperation pretty significant own establish economy. Benefit future to without. Five since building design size computer.","estimatedTime":"4 weeks","previewFileId":"19f9aa48-6e67-45d2-995b-fddc4f1e867e","createdByUserId":"27e87375-2d37-4f6c-a2c1-896af278e605"}'

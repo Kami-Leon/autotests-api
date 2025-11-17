@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/a77a3fb9-57bf-43a1-9969-0fc30d8f752b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjEwLjAzMDA2NSIsInVzZXJfaWQiOiIyN2U4NzM3NS0yZDM3LTRmNmMtYTJjMS04OTZhZjI3OGU2MDUifQ.dUgKt46Lh9qxZqgqGsb4yvq-n-vUHdCShvoNyDciOrM' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Last our board safe ball paper sometimes letter.","maxScore":64,"minScore":13,"orderIndex":69,"description":"Its factor organization trip reduce parent line. Blue discussion notice because offer method space.\nHeavy finally most call state. Respond what perform true office throw rule quality.","estimatedTime":"9 weeks"}'

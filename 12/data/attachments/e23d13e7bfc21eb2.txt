@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjA3LjM0ODYyOCIsInVzZXJfaWQiOiI3OWQwMDcxZi1kZDcxLTQ0NmEtODJiZC1jZWNlMDY3NGVkZGUifQ.TNz-if31jREr79vy0BDflXjx2lQXWe_2As2lPil7EwI' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock citizen cut religious represent material of.","maxScore":97,"minScore":6,"description":"Fight avoid rest total final.\nFew change section case stand nor peace democratic. Total point improve night scientist government. Six enter return moment certain cause.","estimatedTime":"4 weeks","previewFileId":"bb68d23f-1504-4de8-a63f-823b3407d376","createdByUserId":"79d0071f-dd71-446a-82bd-cece0674edde"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjA5LjEyNDI3NyIsInVzZXJfaWQiOiJhZTVlNTViOC1iYmQ4LTRkYjEtYTFhZC0xNjJhN2Q0MDExZTkifQ.jg5zD--4Z5jQ6ELoAOToK1eJmNqrR1MJzgefSKhFpiU' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scientist rule again case more.","maxScore":69,"minScore":18,"description":"Win blue cup shake bit. Century best majority should expert under. Dream with wife director present. They Mrs reach base.","estimatedTime":"5 weeks","previewFileId":"a937d1cf-3eaa-4989-8e39-82da6849453a","createdByUserId":"ae5e55b8-bbd8-4db1-a1ad-162a7d4011e9"}'

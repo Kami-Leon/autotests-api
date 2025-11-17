@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjA4LjUzMDY3MyIsInVzZXJfaWQiOiJmYmNhNjA5NS00NTViLTRjZWQtOGExNy0wOGRlNGRjMjE3ZWYifQ.aauukPv-NyEjq19_3mtnuEIZi5PXnKlbPdtiefrAURE' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sort very scene.","maxScore":100,"minScore":27,"description":"Build morning education movement kid commercial. Easy from reach shoulder marriage fact.\nTheory pay paper soldier skin hit. Bed bit yet such answer history.\nAble without explain nation.","estimatedTime":"2 weeks","previewFileId":"a563f9df-0643-4602-a46f-95c3b1cdb649","createdByUserId":"fbca6095-455b-4ced-8a17-08de4dc217ef"}'

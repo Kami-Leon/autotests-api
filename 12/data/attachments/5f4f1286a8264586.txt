@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjExLjI0NTQ5MSIsInVzZXJfaWQiOiI5MGNiODIwMS1mZWZkLTQ0NTItOWNiOS1mZTJkZmZmMmM1YTkifQ.1g773FP9CZ0C3s95-9zmvJdHl5fkFzf9VE88hklE_dc' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly field business relate stop four finish beyond.","courseId":"3a4fc7ec-6ebf-440d-86b6-7d44d7acb6b0","maxScore":59,"minScore":27,"orderIndex":7,"description":"Thus form since may church easy. Reveal become bar may dark. Deep will agreement war ten pressure national.","estimatedTime":"9 weeks"}'

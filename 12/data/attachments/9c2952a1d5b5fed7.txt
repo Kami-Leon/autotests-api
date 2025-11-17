@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:82 Check create exercise response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Nearly fight phone science building wrong hear."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "865d0b38-f5c2-4c65-abd7-65c500c1c2fd"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "54"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "22"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "97"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Respond management yet great end. Hope computer thank health him mother. With decade create through campaign treat."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "8 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

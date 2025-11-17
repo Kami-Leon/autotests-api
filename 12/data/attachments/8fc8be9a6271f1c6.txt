@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjExLjUxODk4NSIsInVzZXJfaWQiOiJjNjIxOTAyNy1kOGJjLTQwOGYtYTNmOS0zNTJjYzNlNmQ5M2MifQ.KGlnmMjlWydb5igs6lcL29FEg4X9dEsWn2VzuTWeya4' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody hour four not shoulder total.","courseId":"66bbb7f7-e0b4-4539-b654-bf0f46eee89f","maxScore":62,"minScore":25,"orderIndex":54,"description":"But assume modern partner will. Eat single between particularly. Down six maintain build garden sign than whether.","estimatedTime":"3 weeks"}'

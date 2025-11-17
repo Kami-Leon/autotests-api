@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjA3Ljk0MjAyMyIsInVzZXJfaWQiOiJhNjcwMWU2Ni1jNDgzLTQyNjctODQ5ZC1mZjk4YTRjNjQzMGMifQ.xC7DenMA96Yv83e9qfsKdTUsD-fqLNTqgTAfyuCVzYc' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv charge school yet detail budget over third.","maxScore":73,"minScore":30,"description":"Eye huge director quickly store degree. Figure human we state respond five technology.\nChurch tell itself nor force list federal. Executive choice lay southern shake that above.","estimatedTime":"3 weeks","previewFileId":"d156cfc4-5a65-4102-9bea-5d5262d38c86","createdByUserId":"a6701e66-c483-4267-849d-ff98a4c6430c"}'

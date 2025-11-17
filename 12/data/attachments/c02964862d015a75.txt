@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=66bbb7f7-e0b4-4539-b654-bf0f46eee89f
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=66bbb7f7-e0b4-4539-b654-bf0f46eee89f
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:64 Check get exercises response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "421dc8c9-c501-446d-8acb-2e135d69b145"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Everybody hour four not shoulder total."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "66bbb7f7-e0b4-4539-b654-bf0f46eee89f"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "62"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "25"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "54"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "But assume modern partner will. Eat single between particularly. Down six maintain build garden sign than whether."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "3 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

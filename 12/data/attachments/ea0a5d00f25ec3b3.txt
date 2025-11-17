@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDE1OjI3OjExLjUxODk4NSIsInVzZXJfaWQiOiJjNjIxOTAyNy1kOGJjLTQwOGYtYTNmOS0zNTJjYzNlNmQ5M2MifQ.KGlnmMjlWydb5igs6lcL29FEg4X9dEsWn2VzuTWeya4' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact two agency.","maxScore":53,"minScore":4,"description":"Of name bar visit. Amount direction difficult dinner film under themselves.\nBuilding material sure news responsibility kind gas. Study because keep lead she. Fish view Congress night scientist.","estimatedTime":"1 weeks","previewFileId":"5e67fc37-f6f3-41aa-91cb-d5f99bf6ea22","createdByUserId":"c6219027-d8bc-408f-a3f9-352cc3e6d93c"}'
