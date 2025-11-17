@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjMyOjMxLjUwOTgwMiIsInVzZXJfaWQiOiIzZmMyNzc1ZC1lNmJmLTQ1NTAtOTFhOS0xNDYwN2Y1ZDZlNmIifQ.GUYhMIaNqvGx1n4xJZptPNB65jF4wziizfMheDqk69Y' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large visit reach series region same.","maxScore":68,"minScore":30,"description":"Store before lot book. Particular spring something wear. Space require morning far line test single.","estimatedTime":"3 weeks","previewFileId":"76e640e3-b113-435f-bedc-25d5c51d4767","createdByUserId":"3fc2775d-e6bf-4550-91a9-14607f5d6e6b"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/1b3ac6d8-0b14-4207-b90c-570fa997a510
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/1b3ac6d8-0b14-4207-b90c-570fa997a510
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:25 Check update course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Type others guess research color should."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "84"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "8"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Right eye decision whatever several himself. Address street firm offer soon environment others."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "5 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

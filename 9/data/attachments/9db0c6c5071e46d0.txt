@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjMyOjMzLjI3NTM3MiIsInVzZXJfaWQiOiIzMDgwMWMxOS1hOWNkLTQ2NzEtYjMxNS1lNGMzYjJkM2E1MjQifQ.1SckCb2wt6m43yTZ-NC_m8Y8N5iuf9qWMTC6t7p5WwM' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perhaps agent Democrat above such top hear grow.","maxScore":85,"minScore":7,"description":"Success trade can. Even action recently leg school fast development American.\nWhile seek form possible. Ok ask up continue last individual. Change name Mrs church hair.","estimatedTime":"10 weeks","previewFileId":"9c089917-54b0-462e-a033-cc14c8351dde","createdByUserId":"30801c19-a9cd-4671-b315-e4c3b2d3a524"}'

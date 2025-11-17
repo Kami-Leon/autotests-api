@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjMyOjMyLjA5OTgzOSIsInVzZXJfaWQiOiI2MTRkN2U2Zi00ZGEyLTRlZTMtOWUwNy1mMzU0NjNkMmVmZmEifQ.tQYzj2KTdnrDPmuCx2dVd-87a_kCgA8OVIzmfhjnPO0' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speech way product possible parent rather.","maxScore":71,"minScore":3,"description":"Bar college accept number behavior hit. Hard pass share morning win law especially.\nHe major great drive. Modern music policy family writer. Real indeed hotel.","estimatedTime":"6 weeks","previewFileId":"37f37f63-3283-4a22-b701-4e78303ee917","createdByUserId":"614d7e6f-4da2-4ee3-9e07-f35463d2effa"}'

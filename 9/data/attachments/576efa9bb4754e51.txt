@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjMyOjM0LjE2NDcwMSIsInVzZXJfaWQiOiIzMjc2N2FhNi0yZjNhLTQxMDctYjM0My1kZjViOWU1NGU2YzYifQ.h9ePOUr9OJ8cBtJ_P1y2wKdvPTdNedSBMTMIVo7E2xg' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fast sign clearly seat kid less.","maxScore":74,"minScore":8,"description":"Receive say you that turn. Include make scene amount mother daughter. List truth player benefit give thus.","estimatedTime":"5 weeks","previewFileId":"0132efa0-3620-47d9-a750-aef4033144f6","createdByUserId":"32767aa6-2f3a-4107-b343-df5b9e54e6c6"}'

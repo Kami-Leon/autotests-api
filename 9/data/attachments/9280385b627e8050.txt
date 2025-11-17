@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjMyOjM0LjQzNzQ0MiIsInVzZXJfaWQiOiIxNTg2YTUyMS1kZmIyLTQxOGItOWI1MS02MGQ0MTM4NTFlMWEifQ.z3giV41hyRPLE7q6H9JOC5YIVQMA2vzcBonI3HhzDxQ' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow respond answer science gun trial need history.","courseId":"1e90aeb9-e46a-442a-9c21-78ff338dd198","maxScore":90,"minScore":11,"orderIndex":10,"description":"Enjoy throughout impact kitchen former mind blood. Sell Democrat term able car growth. End public politics. Agree kind knowledge or institution.","estimatedTime":"5 weeks"}'

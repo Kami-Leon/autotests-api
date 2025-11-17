@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjMyOjM1LjM5NTgzMCIsInVzZXJfaWQiOiI3NzJjMjZlZi1mNmRkLTRkZWMtOGQ0ZC01NmUwZmZlYzRjMDMifQ.t8R3NATMyn06CSRq-GFHroQQuhtITtrebt7PguTT2bM' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Road north fall little.","maxScore":73,"minScore":7,"description":"Region so bag but rate. Personal thus similar.\nCall far bag possible happen create federal soldier. Hold commercial last may success.\nSister power model laugh my beat affect.","estimatedTime":"2 weeks","previewFileId":"a0869187-ff72-4ce2-a270-e443afb090fd","createdByUserId":"772c26ef-f6dd-4dec-8d4d-56e0ffec4c03"}'
