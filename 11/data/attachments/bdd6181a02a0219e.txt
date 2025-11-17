@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjQ4Ljc3NDczOCIsInVzZXJfaWQiOiI0MWE0ZGIxZi03NzYzLTRmNjYtYjUwOC1iZjE1OWRhNzJhYmYifQ.I_zXaVFdcsBwA5qYVSE-LArUlf8zQS5M1e_0cFuoxHM' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She east child relate or audience.","maxScore":98,"minScore":18,"description":"Art force after process. Often place dark there reduce almost.\nDecide miss market. Popular herself expect real. Relate near among measure tax.","estimatedTime":"3 weeks","previewFileId":"2a5f0686-acbb-4e2f-9bba-477c9161e02e","createdByUserId":"41a4db1f-7763-4f66-b508-bf159da72abf"}'

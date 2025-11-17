@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/940e17fc-f281-4d8b-9c3f-53e678dac2e5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjQ4LjE4NzExNiIsInVzZXJfaWQiOiIxZGM5ZjQ4NS0zZTY4LTQ5MjMtODE4Yi04YmZiMTExZDA5NjUifQ.5xFu221sA-UEE1fby_YbNBMCjI0nDsL8wvBNZUlP958' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate morning top last.","maxScore":50,"minScore":10,"description":"Science book population. Most anyone attorney surface. Effort since draw tend.\nAct wide draw security concern weight control. Significant want ahead true fear college style.","estimatedTime":"4 weeks"}'

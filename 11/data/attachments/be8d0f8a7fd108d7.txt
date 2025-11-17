@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjUwLjkwOTE2NSIsInVzZXJfaWQiOiJmMzdhNzA3ZS1iNzA1LTQzMDgtOWQ1OC1jZDdhZjNkZWViYjQifQ.MgjvlukzCNryu9tbyxy7651A8rStliBkgwahyy27CKw' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move probably issue area model anyone.","courseId":"5812f6e8-71ac-4e29-a49f-82cd3f413614","maxScore":70,"minScore":7,"orderIndex":50,"description":"Watch answer someone particularly maintain word. Successful none seat represent. Clearly something everybody blood career miss cover. Truth audience believe talk perform hospital pull chair.","estimatedTime":"10 weeks"}'

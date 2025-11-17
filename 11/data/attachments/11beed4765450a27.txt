@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/exercises/b4165104-4f0b-4d84-a56c-59f1e338e841
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/b4165104-4f0b-4d84-a56c-59f1e338e841
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:105 Check update exercise response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Natural spring large way five."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "96"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "26"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "55"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Impact Republican plan lawyer from by until receive. Politics today buy success thousand radio. Successful spend little."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "6 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

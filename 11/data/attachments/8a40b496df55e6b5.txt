@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjQ5LjY4OTMxNSIsInVzZXJfaWQiOiI3MjA1OTNhMy1mOTg5LTQxNjAtYTIzNS00MjkxY2U4NGQxZDYifQ.VmgPGQogsbCxJblCb1HalXBWV9hG5hmKtpuvC3WpaL0' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day tonight for exist.","courseId":"92205eb2-ddfa-42b5-b418-9fc82e38f646","maxScore":60,"minScore":1,"orderIndex":46,"description":"War challenge change house bit us. Seem us significant sister. Mother company get later whether effort pay shoulder.\nApply somebody least best within. Edge be fund whole organization open.","estimatedTime":"4 weeks"}'

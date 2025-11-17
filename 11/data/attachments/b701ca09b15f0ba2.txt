@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/940e17fc-f281-4d8b-9c3f-53e678dac2e5
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/940e17fc-f281-4d8b-9c3f-53e678dac2e5
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:25 Check update course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Rate morning top last."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "50"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "10"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Science book population. Most anyone attorney surface. Effort since draw tend.
+Act wide draw security concern weight control. Significant want ahead true fear college style."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "4 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjUxLjE4MjM0NiIsInVzZXJfaWQiOiIyZGVhYzgyNC1iM2M1LTQyZmItYTBkZC1lNmYwOGIyNjY2ZTMifQ.Imf3UMgfuYkQw5W45w9-i1iB-mgJwCmrixhZvydYNp4' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle light catch born media our.","maxScore":81,"minScore":25,"description":"Common media whom hold stock indicate moment. Teach hit there seat three.\nYet lawyer guy star current evidence when. Reach difference plan health. Which age let modern music.","estimatedTime":"7 weeks","previewFileId":"a9952fe9-5efb-4657-88df-c518c3c4bb55","createdByUserId":"2deac824-b3c5-42fb-a0dd-e6f08b2666e3"}'

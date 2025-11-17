@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjQ5LjY4OTMxNSIsInVzZXJfaWQiOiI3MjA1OTNhMy1mOTg5LTQxNjAtYTIzNS00MjkxY2U4NGQxZDYifQ.VmgPGQogsbCxJblCb1HalXBWV9hG5hmKtpuvC3WpaL0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing focus everybody meet.","maxScore":70,"minScore":1,"description":"Traditional animal it lawyer notice magazine want. Scientist lot feeling story half cell. Democrat sometimes usually arrive affect different.","estimatedTime":"4 weeks","previewFileId":"9c0e5cb4-6eb2-41a3-995d-e118ec52b705","createdByUserId":"720593a3-f989-4160-a235-4291ce84d1d6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjQ3LjU5ODI3MiIsInVzZXJfaWQiOiIyN2ZmN2VjZC04NTI3LTRiOTUtOTU5MC1iNWQ2ODRmMTMxOWQifQ.81Z6bgnREcP9Mk7AWjpGTi7w8B4fgP1PlNhzy20qbBo' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal most term term among husband few note.","maxScore":87,"minScore":15,"description":"Speech all visit by let take such. Positive list partner hit while idea. Religious claim rise feeling dream development ok.\nHere camera beyond either those rule. Yourself early trial test health.","estimatedTime":"9 weeks","previewFileId":"87e36d4c-1943-4604-a719-b75b49496a4a","createdByUserId":"27ff7ecd-8527-4b95-9590-b5d684f1319d"}'

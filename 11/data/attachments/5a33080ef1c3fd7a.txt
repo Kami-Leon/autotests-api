@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/courses?userId=cb31b653-86bd-4a55-aa2b-c0624e347705
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=cb31b653-86bd-4a55-aa2b-c0624e347705
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:88 Check get courses response
+INFO     BASE_ASSERTION:base.py:74 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTION:courses.py:43 Check course
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "004e9a5b-86ff-4c41-9113-35b81c207742"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Decide short send most point avoid."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "60"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "29"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Drop heart field lawyer community now business. Be morning popular not.
+Attack save wish two. Race safe brother as accept. Career act force despite."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "5 weeks"
+INFO     FILES_ASSERTION:files.py:41 Check file
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "3b840d3a-9d58-48f3-8470-016fd33221d6"
+INFO     BASE_ASSERTION:base.py:38 Check "url" equals to "http://localhost:8000/static/tests/de345002-6e83-4ff2-b341-a89a74495ae3.png"
+INFO     BASE_ASSERTION:base.py:38 Check "filename" equals to "de345002-6e83-4ff2-b341-a89a74495ae3.png"
+INFO     BASE_ASSERTION:base.py:38 Check "directory" equals to "tests"
+INFO     USERS_ASSERTION:users.py:36 Check user
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "cb31b653-86bd-4a55-aa2b-c0624e347705"
+INFO     BASE_ASSERTION:base.py:38 Check "email" equals to "kathleen42@example.com"
+INFO     BASE_ASSERTION:base.py:38 Check "last_name" equals to "Farrell"
+INFO     BASE_ASSERTION:base.py:38 Check "first_name" equals to "Shannon"
+INFO     BASE_ASSERTION:base.py:38 Check "middle_name" equals to "Johnny"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

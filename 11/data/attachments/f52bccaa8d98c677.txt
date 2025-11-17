@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjQ5Ljk2Mjk5NCIsInVzZXJfaWQiOiI1YWQwNDEyMS03YTc3LTQ0NjYtOTBiMC0yNjMxMzZmMTZlMDIifQ.VaX5mw5moEK8jA9xJV26k1xJ05QtN2SBDKZE7qDDPps' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago resource fear east area power same.","maxScore":82,"minScore":19,"description":"I amount himself we high yes month. Out about suggest recently medical quickly daughter once.","estimatedTime":"8 weeks","previewFileId":"26d6ddbc-6af7-4591-88d1-6db9f1015548","createdByUserId":"5ad04121-7a77-4466-90b0-263136f16e02"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjUwLjkwOTE2NSIsInVzZXJfaWQiOiJmMzdhNzA3ZS1iNzA1LTQzMDgtOWQ1OC1jZDdhZjNkZWViYjQifQ.MgjvlukzCNryu9tbyxy7651A8rStliBkgwahyy27CKw' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Money have draw close follow.","maxScore":63,"minScore":20,"description":"Pick a mission join operation light. Ten card home else.\nTotal among meet structure catch smile. Everybody blood hear green.\nI light keep need theory open. Hold hundred close method.","estimatedTime":"2 weeks","previewFileId":"a4563797-5572-469a-a287-bf759dc5dc57","createdByUserId":"f37a707e-b705-4308-9d58-cd7af3deebb4"}'
