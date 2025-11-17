@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjE4Ljc1ODE5MiIsInVzZXJfaWQiOiJmN2NhMWExYy1jZDcwLTQ5M2UtYWI0Ni05MWJjYjQ4ODQwODYifQ.qs6vPNsMjoEfOnVUvoHRmAXwIFMe7LcXQi51BMkaoSo' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever consider himself Democrat once show something.","maxScore":100,"minScore":4,"description":"Later perform color so artist. Young might add. Situation local while evidence spring fall more. Million together animal thousand specific reach away figure.","estimatedTime":"5 weeks","previewFileId":"2911f42e-ec65-441d-b371-a30fd6552945","createdByUserId":"f7ca1a1c-cd70-493e-ab46-91bcb4884086"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e8febe04-d975-406b-860e-28ee827813b6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjE5LjY1NjE2MyIsInVzZXJfaWQiOiJkODAwMGQ5NC1jNWRmLTQxOWEtYjk5Ni0xZWE5OGE2OTE3NjIifQ.yNTZ7qKEti1X36PzloAdZiDB2G-CnIy5EncerR79qrI' \
+  -H 'content-length: 227' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Purpose back policy police simply.","maxScore":92,"minScore":10,"description":"Figure be perform animal. Garden visit cup form conference by. A strategy use direction music name voice turn.","estimatedTime":"9 weeks"}'

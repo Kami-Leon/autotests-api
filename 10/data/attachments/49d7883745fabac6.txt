@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:82 Check create exercise response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Safe official experience way process well indicate face."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "e4bf53c2-c262-48e4-8c1b-bdb762c08468"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "59"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "20"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "68"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Instead analysis it window its. Bed entire effort rock. Ten democratic project too. Ground kind structure."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "8 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

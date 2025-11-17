@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjIxLjE0NzIwMCIsInVzZXJfaWQiOiJiZWI0NDczNi04YWRlLTQzNTgtYTRiZi1kM2M1NjdmY2RkMjQifQ.gXm3C8Bov74yLiL4l6l9vcbYizsUfoNazcjpqcoShGQ' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Surface view employee accept form.","maxScore":55,"minScore":3,"description":"Growth them score major. Father thought require activity whom ground. Price cover fine move fight great.\nPull course loss paper somebody lawyer. Along life ability page with positive own.","estimatedTime":"10 weeks","previewFileId":"c6c7284a-1bba-4ef0-8b9d-b652e6eb7d75","createdByUserId":"beb44736-8ade-4358-a4bf-d3c567fcdd24"}'

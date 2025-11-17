@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjIyLjA4NTE5NCIsInVzZXJfaWQiOiJlNzRlMTY1MS1jYTA1LTQ3OWUtOTNiZi1iOGZhZWQwZDlmMmMifQ.z4o9ADCLZKspHFeufvN3uvBTi3k6oPhUguLMqatquSs' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Race many face effect.","maxScore":78,"minScore":9,"description":"Case fund successful such. Pick such everyone near.\nAgainst term soldier break expert seek discover. Begin difference performance often politics memory.","estimatedTime":"5 weeks","previewFileId":"14a05955-b4ff-4738-b7ba-a64dcc83c8bc","createdByUserId":"e74e1651-ca05-479e-93bf-b8faed0d9f2c"}'

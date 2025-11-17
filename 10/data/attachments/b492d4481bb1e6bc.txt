@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/91a5c205-10cc-470b-829a-2ba5e611791a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjIwLjg3MzExNiIsInVzZXJfaWQiOiIwMGU2NDcwNi0yNzI4LTRmYTktOGVmYS1iMDYxMjJhYjI1OWUifQ.AhKINOx_6b61k_md2GWQErEpTKXWQ7wVKXp0ASH9uPI' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing street happen.","maxScore":92,"minScore":14,"orderIndex":73,"description":"Pay ability sometimes. Understand blue sing leader leg tend.\nBecause raise likely mind where political. Rise edge rise collection. Option arrive commercial.\nThree side feeling.","estimatedTime":"2 weeks"}'

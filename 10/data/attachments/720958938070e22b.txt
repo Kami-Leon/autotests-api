@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjIyLjM1ODUwMSIsInVzZXJfaWQiOiIxMTZhZjczZS05ZGJhLTRlYjUtYjBmZC03NGMwZTE2ZDM5OTQifQ.lzg_KGpM43besc-tVTDNyb8uDoBy8CjdhUVjSUtp_f4' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Catch player role performance.","maxScore":51,"minScore":25,"description":"Bad since east against beat nature loss. Reality option indicate.\nIdentify fire of price. To structure themselves market require. Fine wrong position.","estimatedTime":"7 weeks","previewFileId":"fa9888c2-8336-45ee-9c46-294796ef27e8","createdByUserId":"116af73e-9dba-4eb5-b0fd-74c0e16d3994"}'

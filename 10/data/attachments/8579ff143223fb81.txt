@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjIwLjg3MzExNiIsInVzZXJfaWQiOiIwMGU2NDcwNi0yNzI4LTRmYTktOGVmYS1iMDYxMjJhYjI1OWUifQ.AhKINOx_6b61k_md2GWQErEpTKXWQ7wVKXp0ASH9uPI' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step their involve program bar.","maxScore":51,"minScore":5,"description":"Help authority argue parent them course. At call present others with. Something also individual quite activity film industry attorney.","estimatedTime":"8 weeks","previewFileId":"7a70f3f4-082f-4dbc-9a4b-3234756185f3","createdByUserId":"00e64706-2728-4fa9-8efa-b06122ab259e"}'

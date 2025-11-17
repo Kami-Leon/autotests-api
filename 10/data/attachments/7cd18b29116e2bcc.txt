@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjE5LjkzMDIxNiIsInVzZXJfaWQiOiJkM2Q1NDA2ZC1lOTNmLTQ0ZDgtOThiNC0wNTYyMjM0ZThiZDgifQ.TIpnVNyN5buF3Olk3sqFnwyUR90Wqs7RwfB38fKldf0' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe official experience way process well indicate face.","courseId":"e4bf53c2-c262-48e4-8c1b-bdb762c08468","maxScore":59,"minScore":20,"orderIndex":68,"description":"Instead analysis it window its. Bed entire effort rock. Ten democratic project too. Ground kind structure.","estimatedTime":"8 weeks"}'

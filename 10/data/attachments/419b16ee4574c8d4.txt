@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjE5LjY1NjE2MyIsInVzZXJfaWQiOiJkODAwMGQ5NC1jNWRmLTQxOWEtYjk5Ni0xZWE5OGE2OTE3NjIifQ.yNTZ7qKEti1X36PzloAdZiDB2G-CnIy5EncerR79qrI' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car who manager exist popular none.","maxScore":65,"minScore":12,"description":"Officer represent read well wish determine. Look material building capital collection technology establish.\nBecome argue nation hundred notice end. If knowledge land dark.","estimatedTime":"8 weeks","previewFileId":"3c804100-aa88-4d82-8a6f-0c697761c550","createdByUserId":"d8000d94-c5df-419a-b996-1ea98a691762"}'

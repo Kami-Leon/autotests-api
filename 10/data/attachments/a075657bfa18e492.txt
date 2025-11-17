@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE3VDEyOjM3OjE4LjE3MTE4NSIsInVzZXJfaWQiOiJjOWYzZmM3OC1mMGQwLTRkMGItYTQzYi1hYzQwNTAxZmI5ZGMifQ.v8R3YtqKkeGaL_vCPqr5kFztshlGIrHQ7hu1QCReA_4' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each radio material social scientist.","maxScore":60,"minScore":7,"description":"Practice I relationship. Bit else need around great mention hair. Give cup provide parent dark arm day down. Down sister head serve technology doctor election.","estimatedTime":"2 weeks","previewFileId":"280248df-b1da-4cdd-8d1c-74443d733fa7","createdByUserId":"c9f3fc78-f0d0-4d0b-a43b-ac40501fb9dc"}'
