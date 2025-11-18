@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU3Ljk1NDYzOSIsInVzZXJfaWQiOiI1NTFlZDFhMy1jMWYxLTQxN2QtODM0Yi01ZTdjODc1Y2QyMTQifQ.d4GRs3kH8F0Bdi78YQOwL9AFjFXhkiwexz10GpSU3G4' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seven story minute.","maxScore":93,"minScore":21,"description":"Fast modern fast walk. Small simple type professor two establish perform.\nShort half however already. Religious sound thank stay moment.","estimatedTime":"1 weeks","previewFileId":"335d9458-d4eb-4356-b175-673474713b96","createdByUserId":"551ed1a3-c1f1-417d-834b-5e7c875cd214"}'

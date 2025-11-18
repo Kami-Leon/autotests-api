@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU5LjA2MTc1NCIsInVzZXJfaWQiOiIwMzg2MWU2MS0zYmE0LTRjMDAtYTJmMC03OGY2ZjEwYTMzNzgifQ.4JXfuCkRkpkImw03AspBTpon3juTYCywZEcNaSHOhBM' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional impact investment who church last.","maxScore":61,"minScore":15,"description":"Design sister somebody break company team attention. Arm feeling cold even. Others over in trip.\nCongress hope also we article. Little take us beautiful quickly. Among risk travel sit position.","estimatedTime":"9 weeks","previewFileId":"ad3f6394-c381-4cd0-8be0-570f69d78190","createdByUserId":"03861e61-3ba4-4c00-a2f0-78f6f10a3378"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU1LjcxNjI0MyIsInVzZXJfaWQiOiIwOGE1ZDgxZS0wMzRmLTQyMmEtODE4OS04MmUyM2I1OWVkZjIifQ.V2CaO9ccLkwAwr3gqBD48g5bywZF1waYsQL9dE4fHA4' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl politics attack up success.","maxScore":60,"minScore":20,"description":"Board again catch responsibility ever check. Resource right she close identify between only.","estimatedTime":"7 weeks","previewFileId":"691a0bba-b664-43fe-afd3-0ee08e4cbe2d","createdByUserId":"08a5d81e-034f-422a-8189-82e23b59edf2"}'

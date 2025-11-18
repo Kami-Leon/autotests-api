@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5545b11e-e60f-4be1-a77b-9f36e1cc5c74' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU2LjI3NDQ3NCIsInVzZXJfaWQiOiIxZWU3OWNmZS1lZDZhLTRjNzctYWUzZi0xZjYzYWFmMzViYjQifQ.YqER0z-vqcbVF1AJoJbvq1Zr06EpwtOXoQnSEH3FnKo' \
+  -H 'content-length: 244' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President become win trial majority.","maxScore":74,"minScore":18,"description":"Federal next all left. Address military picture.\nEspecially social be method affect stage rise. Option western voice create.","estimatedTime":"4 weeks"}'

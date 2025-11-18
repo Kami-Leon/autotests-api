@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU2LjgzNDM4MyIsInVzZXJfaWQiOiIwOTNmNWQwZC04NjYyLTQzODItYTZhYS03ZjI5OTk0NDdhY2EifQ.OzM73sXUXdGczbAu4TXxV_xde6nEEyjKzbTpLt5F4o8' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leg pay pull top ready.","courseId":"91d60624-5862-4ef8-9c22-2e2d5d7ea317","maxScore":50,"minScore":27,"orderIndex":26,"description":"Future during against. Center cold stage life. Per common usually current.\nDream dinner record up produce hospital question. Marriage its same piece source. Particular charge improve.","estimatedTime":"6 weeks"}'

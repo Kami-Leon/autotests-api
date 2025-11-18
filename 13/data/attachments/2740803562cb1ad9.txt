@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/5545b11e-e60f-4be1-a77b-9f36e1cc5c74
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/5545b11e-e60f-4be1-a77b-9f36e1cc5c74
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTION:courses.py:25 Check update course response
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "President become win trial majority."
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "74"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "18"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Federal next all left. Address military picture.
+Especially social be method affect stage rise. Option western voice create."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "4 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

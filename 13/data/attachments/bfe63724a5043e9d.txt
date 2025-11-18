@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/59d2bdb0-4d9d-4332-a0fe-2ce11a4ce9e5
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/59d2bdb0-4d9d-4332-a0fe-2ce11a4ce9e5
+INFO     BASE_ASSERTION:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTION:exercises.py:47 Check get exercise response
+INFO     EXERCISES_ASSERTION:exercises.py:23 Check exercise
+INFO     BASE_ASSERTION:base.py:38 Check "id" equals to "59d2bdb0-4d9d-4332-a0fe-2ce11a4ce9e5"
+INFO     BASE_ASSERTION:base.py:38 Check "title" equals to "Current quite conference in center indicate PM."
+INFO     BASE_ASSERTION:base.py:38 Check "course_id" equals to "a71a6d54-bb26-42e3-af37-1e64104e319d"
+INFO     BASE_ASSERTION:base.py:38 Check "max_score" equals to "89"
+INFO     BASE_ASSERTION:base.py:38 Check "min_score" equals to "26"
+INFO     BASE_ASSERTION:base.py:38 Check "order_index" equals to "86"
+INFO     BASE_ASSERTION:base.py:38 Check "description" equals to "Leader issue among ball audience threat dog. Key few everybody. Expert receive result media son."
+INFO     BASE_ASSERTION:base.py:38 Check "estimated_time" equals to "10 weeks"
+INFO     SCHEMA_ASSERTION:schema.py:21 Validating JSON schema

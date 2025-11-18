@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU3Ljk1NDYzOSIsInVzZXJfaWQiOiI1NTFlZDFhMy1jMWYxLTQxN2QtODM0Yi01ZTdjODc1Y2QyMTQifQ.d4GRs3kH8F0Bdi78YQOwL9AFjFXhkiwexz10GpSU3G4' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Current quite conference in center indicate PM.","courseId":"a71a6d54-bb26-42e3-af37-1e64104e319d","maxScore":89,"minScore":26,"orderIndex":86,"description":"Leader issue among ball audience threat dog. Key few everybody. Expert receive result media son.","estimatedTime":"10 weeks"}'

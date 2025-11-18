@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU2LjgzNDM4MyIsInVzZXJfaWQiOiIwOTNmNWQwZC04NjYyLTQzODItYTZhYS03ZjI5OTk0NDdhY2EifQ.OzM73sXUXdGczbAu4TXxV_xde6nEEyjKzbTpLt5F4o8' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style president civil our.","maxScore":65,"minScore":17,"description":"Item attack industry student attention response. Specific consider around little. Smile there response same themselves.\nThan red huge born personal kitchen meeting. Majority his theory involve on.","estimatedTime":"4 weeks","previewFileId":"6a14d33e-1f9f-4dcf-a083-361c2e53f09d","createdByUserId":"093f5d0d-8662-4382-a6aa-7f2999447aca"}'

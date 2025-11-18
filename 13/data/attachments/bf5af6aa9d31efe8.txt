@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE4VDEwOjUzOjU3LjM4OTIzOCIsInVzZXJfaWQiOiJjMmNlMTU1Ni1jOGFkLTQ4MjUtOWE0Zi1lOGE2NTJlMjA4YjAifQ.4hHnBHfEG227H-KPpmvjDgIMd0iJq2B5PyzBheR_g3k' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate hair seven authority believe mother.","maxScore":89,"minScore":3,"description":"Price inside husband. Eat go student debate attack guess.\nHospital institution wife budget picture. Evening population price.","estimatedTime":"2 weeks","previewFileId":"248ce9b3-d106-47f3-9e27-8f3ae8e266c7","createdByUserId":"c2ce1556-c8ad-4825-9a4f-e8a652e208b0"}'
